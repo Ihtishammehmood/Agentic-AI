@@ -1,3 +1,8 @@
+### Check out the demo and walkthrough on YouTube:  
+
+[![image](https://github.com/user-attachments/assets/f080eb2e-c250-4900-885d-af9f0f39252c)](https://youtu.be/vks4Or3hoA0)
+
+
 # 🧠 Agentic RAG (Powered by Gemini API)
 
 This is a Streamlit-based application that leverages the power of the **Gemini API** to provide an intelligent, autonomous assistant capable of handling a wide range of tasks.
@@ -24,19 +29,12 @@ This is a Streamlit-based application that leverages the power of the **Gemini A
 - **Streamlit** – for building the interactive UI  
 - **Gemini API** – for advanced language understanding and generation  
 - **Python** – for backend logic and agent management  
-- **AGNO ** – For building custom agents
-
-## 📺 Demo Video
-
-Check out the demo and walkthrough on YouTube:  
-[👉 Watch the video](https://youtu.be/vks4Or3hoA0)
-
+- **AGNO** – For building custom agents
 
 ## 📦 Getting Started
 
 To run this app locally:
 
 ```bash
-git clone https://github.com/your-username/agentic-ai-app.git
 pip install -r requirements.txt
 streamlit run app.py
