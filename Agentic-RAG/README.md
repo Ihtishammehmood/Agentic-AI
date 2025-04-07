@@ -1,6 +1,6 @@
 ### Check out the demo and walkthrough on YouTube:  
 
-[![image](https://github.com/user-attachments/assets/f080eb2e-c250-4900-885d-af9f0f39252c)](https://youtu.be/vks4Or3hoA0)
+[![image](https://github.com/user-attachments/assets/132df031-a913-41a9-a5cb-e552af2c89c5)](https://youtu.be/vks4Or3hoA0)
 
 
 # 🧠 Agentic RAG (Powered by Gemini API)
