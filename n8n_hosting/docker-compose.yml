@@ -1,0 +1,23 @@
+volumes:
+  n8n_storage:
+
+services:
+  n8n:
+    image: docker.n8n.io/n8nio/n8n:latest
+    restart: always
+    env_file: .env
+    environment:
+      - DB_TYPE=postgresdb
+      - DB_POSTGRESDB_HOST=${PGHOST}
+      - DB_POSTGRESDB_PORT=${PGPORT}
+      - DB_POSTGRESDB_DATABASE=${PGDATABASE}
+      - DB_POSTGRESDB_USER=${PGUSER}
+      - DB_POSTGRESDB_PASSWORD=${PGPASSWORD}
+      - DB_POSTGRESDB_SSL_ENABLED=true
+      - DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED=false   # Neon requires SSL; set true if you want cert validation
+      - TZ=${TZ}
+      - GENERIC_TIMEZONE=${GENERIC_TIMEZONE}
+    ports:
+      - "5678:5678"
+    volumes:
+      - n8n_storage:/home/node/.n8n
