@@ -4,7 +4,7 @@
 
 ![YouTube Thumbnail](image/mem0_thumbnail.png)
 
-[Watch Demo Video](https://youtube.com/your-video-link)
+[Watch Demo Video](https://youtu.be/hukrVfTIcK8)
 
 
 ## Overview
